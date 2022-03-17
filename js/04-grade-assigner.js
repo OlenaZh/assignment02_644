@@ -1,5 +1,5 @@
 /*eslint-env browser*/
-var grade = prompt ("Enter the student\`s grade.");
+var grade = parseInt(prompt ("Enter the student\`s grade."));
 if (grade < 1 || grade > 100) {
     prompt("Your number is invalid. Please ener a number between 1 and 100.");
 } else if (grade >= 90) {
