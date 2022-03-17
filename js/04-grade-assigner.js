@@ -13,3 +13,22 @@ if (grade < 1 || grade > 100) {
 } else  {
     document.write ("You received an F");
 }
+
+// Or-Var-2-Zak`s 
+/*let num = parseInt(prompt('Enter a number between 1 and 100'))
+
+if (num < 1 || num > 100) {
+    alert('Only numbers between 1 and 100 are accepted.')
+} else {
+    if (num >= 90) {
+        console.log('You received an A')
+    } else if (num >= 80) {
+        console.log('You received an B')
+    } else if (num >= 70) {
+        console.log('You received an C')
+    } else if (num >= 60) {
+        console.log('You received an D')
+    } else {
+        console.log('You received an F')
+    }
+}*/
